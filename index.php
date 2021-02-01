@@ -304,7 +304,7 @@ $reply = uzfox("sendMessage",[
 ])->result->message_id;
 uzfox("sendMessage",[
 "chat_id"=>$fromid,
-"text"=>"✅ <b>Hacker Bey kanalining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:\nhttps://t.me/$botname?start=$fromid",
+"text"=>"✅ <b>HackerBey kanalining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:\nhttps://t.me/$botname?start=$fromid",
 "parse_mode"=>"html",
 "reply_to_message_id"=>$reply,
 "disable_web_page_preview"=>true,
@@ -684,7 +684,7 @@ $username = "$firstname";
 uzfox("sendPhoto",[
     "chat_id"=>$chatid,
 "photo"=>"https://t.me/Hacker_Bey/135",
-    "caption"=>"✅ <b>Hacker Bey kanalining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:
+    "caption"=>"✅ <b>HackerBey kanalining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:
 https://t.me/$botname?start=$chatid",
 "parse_mode"=>"html",
 "disable_web_page_preview"=>true,
@@ -755,7 +755,7 @@ $reply = uzfox("sendMessage",[
 ])->result->message_id;
 uzfox("sendMessage",[
 "chat_id"=>$fromid,
-"text"=>"✅ <b>Hacker Bey kanalining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:\nhttps://t.me/$botname?start=$fromid",
+"text"=>"✅ <b>HackerBey kanalining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:\nhttps://t.me/$botname?start=$fromid",
 "parse_mode"=>"html",
 "reply_to_message_id"=>$reply,
 "disable_web_page_preview"=>true,
@@ -834,8 +834,8 @@ $reply = uzfox("sendMessage",[
 ])->result->message_id;
 uzfox("sendPhoto",[
     "chat_id"=>$from_id,
-"photo"=>"https://t.me/mr_aash/10",
-    "caption"=>"✅ <b>Hacker Bey kanalining rasmiy boti</b> 🤖\n\n🎈 $result do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:\nhttps://t.me/$botname?start=$from_id",
+"photo"=>"https://t.me/Hacker_Bey/135",
+    "caption"=>"✅ <b>HackerBey kanalining rasmiy boti</b> 🤖\n\n🎈 $result do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:\nhttps://t.me/$botname?start=$from_id",
 "parse_mode"=>"html",
 "reply_to_message_id"=>$reply,
 "disable_web_page_preview"=>true,
@@ -999,7 +999,7 @@ file_put_contents("uzfox/$chatid.textsum","$text");
 "reply_markup"=>$menu,
 ]);
           uzfox("sendMessage",[
-              "chat_id"=>"-1001299009162",
+              "chat_id"=>"-1001473306009",
               "text"=>"💳 Foydalanuvchi pul yechib olmoqchi!\nKimdan: [$firstname](tg://user?id=$chatid)\nRaqami: $paynet\nTo'lov miqdori: $text so'm",
           "parse_mode"=>"markdown",
           "reply_markup"=>json_encode([
@@ -1218,7 +1218,7 @@ uzfox("answerInlineQuery",[
 "input_message_content"=>[
 "disable_web_page_preview"=>true,
 "parse_mode"=>"html",
-"message_text"=>"✅ <b>Hacker_Bey kanalining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:
+"message_text"=>"✅ <b>HackerBey kanalining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:
 https://t.me/$botname?start=$inlineid"],
 "reply_markup"=>[
 "inline_keyboard"=>[
