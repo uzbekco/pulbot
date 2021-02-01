@@ -67,7 +67,7 @@ $status = $retus->result->status;
 "inline_keyboard"=>[
 [["text"=>"➕ A‘zo bo‘lish","url"=>"https://t.me/Hacker_Bey"],],
 [["text"=>"➕ A‘zo bo‘lish","url"=>"https://t.me/BEPUL_VIP"],],
-[["text"=>"➕ A‘zo bo‘lish","url"=>"https://t.me/Oddiy_Gold_USA"],],
+[["text"=>"➕ A‘zo bo‘lish","url"=>"https://t.me/Gold_Oddiy_USA"],],
 [["text"=>"✅ Tasdiqlash","callback_data"=>"result"],],
 ]
 ]),
@@ -304,7 +304,7 @@ $reply = uzfox("sendMessage",[
 ])->result->message_id;
 uzfox("sendMessage",[
 "chat_id"=>$fromid,
-"text"=>"✅ <b>Hacker Bey tizimining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:\nhttps://t.me/$botname?start=$fromid",
+"text"=>"✅ <b>Hacker Bey kanalining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:\nhttps://t.me/$botname?start=$fromid",
 "parse_mode"=>"html",
 "reply_to_message_id"=>$reply,
 "disable_web_page_preview"=>true,
@@ -684,7 +684,7 @@ $username = "$firstname";
 uzfox("sendPhoto",[
     "chat_id"=>$chatid,
 "photo"=>"https://t.me/Hacker_Bey/135",
-    "caption"=>"✅ <b>BoomPay tizimining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:
+    "caption"=>"✅ <b>Hacker Bey kanalining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:
 https://t.me/$botname?start=$chatid",
 "parse_mode"=>"html",
 "disable_web_page_preview"=>true,
@@ -755,7 +755,7 @@ $reply = uzfox("sendMessage",[
 ])->result->message_id;
 uzfox("sendMessage",[
 "chat_id"=>$fromid,
-"text"=>"✅ <b>Hacker Bey tizimining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:\nhttps://t.me/$botname?start=$fromid",
+"text"=>"✅ <b>Hacker Bey kanalining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:\nhttps://t.me/$botname?start=$fromid",
 "parse_mode"=>"html",
 "reply_to_message_id"=>$reply,
 "disable_web_page_preview"=>true,
@@ -835,7 +835,7 @@ $reply = uzfox("sendMessage",[
 uzfox("sendPhoto",[
     "chat_id"=>$from_id,
 "photo"=>"https://t.me/mr_aash/10",
-    "caption"=>"✅ <b>BoomPay tizimining rasmiy boti</b> 🤖\n\n🎈 $result do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:\nhttps://t.me/$botname?start=$from_id",
+    "caption"=>"✅ <b>Hacker Bey kanalining rasmiy boti</b> 🤖\n\n🎈 $result do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:\nhttps://t.me/$botname?start=$from_id",
 "parse_mode"=>"html",
 "reply_to_message_id"=>$reply,
 "disable_web_page_preview"=>true,
@@ -1155,7 +1155,7 @@ uzfox("sendMessage",[
               "parse_mode"=>"html",
                "reply_markup"=>json_encode([   
    "inline_keyboard"=>[
-[["text"=>"👨‍💻 Admin","url"=>"https://telegram.me/BoomPayadminbot"],["text"=>"👥 Kanalimiz","url"=>"https://t.me/Boom_Pay"],],
+[["text"=>"👨‍💻 Admin","url"=>"https://telegram.me/Shox_Xacker"],["text"=>"👥 Kanalimiz","url"=>"https://t.me/Hacker_Bey"],],
 ]
 ]),
 ]);
@@ -1218,7 +1218,7 @@ uzfox("answerInlineQuery",[
 "input_message_content"=>[
 "disable_web_page_preview"=>true,
 "parse_mode"=>"html",
-"message_text"=>"✅ <b>Hacker_Bey tizimining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:
+"message_text"=>"✅ <b>Hacker_Bey kanalining rasmiy boti</b> 🤖\n\n🎈 $username do'stingizdan unikal havola-taklifnoma.\n\n👇 Boshlash uchun bosing:
 https://t.me/$botname?start=$inlineid"],
 "reply_markup"=>[
 "inline_keyboard"=>[
@@ -1233,7 +1233,7 @@ if($text=="🗒 Qo‘llanma" and $ban==false){
 if((joinchat($fromid)=="true") and (phonenumber($fromid)=="true") and ($ban==false)){
 uzfox("sendPhoto",[
 "chat_id"=>$chatid,
-"photo"=>"https://t.me/mr_aash/9",
+"photo"=>"https://t.me/Hacker_Bey/135",
 "caption"=>"<b>Savol - botda qanday qilib pul ishlash mumkin?</b>\n\n<b>Javob - botda pul ishlash juda oson, pul ishlash tugmasini bosing. Sizga berilgan unikal-havolani doʻstlaringizga yuboring. Doʻstingiz siz tarqatgan havola orqali botga kirib, bot bergan kanallarga a'zo bo‘lsa, biz sizning bot hisobingizga $referalsum soʻm oʻtkazamiz.</b>\n\n<b>Qanday qilib pulni botdan chiqarish mumkin? Pullarni chiqarish to'g'ridan-to'g'ri sizning mobil telefoningizning hisobiga yoki kartangiz hisobiga amalga oshiriladi:
 Beeline, Ucell, Uzmobile, MOBIUZ (UMS), 
 Perfectum, Click.</b>",
@@ -1296,11 +1296,11 @@ if($text=="💌 Biz bilan aloqa" and $ban==false){
 if((joinchat($fromid)=="true") and (phonenumber($fromid)=="true") and ($ban==false)){
 uzfox("sendMessage",[
    "chat_id"=>$chatid,
-   "text"=>"Nima haqida yozmoqchisiz? 😊\n\n<b>📞 Aloqa markazi:</b> @BoomPayadminbot",
+   "text"=>"Nima haqida yozmoqchisiz? 😊\n\n<b>📞 Aloqa markazi:</b> @SMODILOV",
 "parse_mode"=>"html",
 "reply_markup"=>json_encode([
 "inline_keyboard"=>[
-[["text"=>"🗣 Bog'lanish","url"=>"https://t.me/BoomPayadminbot"],],
+[["text"=>"🗣 Bog'lanish","url"=>"https://t.me/Shox_Xacker"],],
 ]
 ]),
 ]);
@@ -1311,8 +1311,8 @@ if($text=="👨‍💻 Dasturchi" and $ban==false){
 if((joinchat($fromid)=="true") and (phonenumber($fromid)=="true") and ($ban==false)){
 uzfox("sendPhoto",[
 "chat_id"=>$chatid,
-"photo"=>"https://t.me/Tillo_Statuslar/1559",
-"caption"=>"<b>Bot dasturchisi:</b> <a href='tg://user?id=572730244'>uzfox</a>\n\n<b>Ish vaqti: 07:00 dan 23:00 gacha</b>\n\n<b>Diqqat! Bot pul to'lab berish yoki to'lab bermasligiga dasturchi javobgar emas!</b>",
+"photo"=>"https://t.me/Hacker_Bey/135",
+"caption"=>"<b>Bot dasturchisi:</b> <a href='tg://user?id=572730244'>uzfox</a>\n\n<b>Ish vaqti: 12:00 dan 22:00 gacha</b>\n\n<b>Diqqat! Bot pul to'lab berish yoki to'lab bermasligiga dasturchi javobgar emas!</b>",
 "parse_mode"=>"html",
 "reply_markup"=>json_encode([
 "inline_keyboard"=>[
