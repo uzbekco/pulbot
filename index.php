@@ -45,12 +45,12 @@ function joinchat($id){
          ]);
 $stat = $ret->result->status;
 $rets = uzfox("getChatMember",[
-         "chat_id"=>"-1001473306009",
+         "chat_id"=>"-1001236160362",
          "user_id"=>$id,
          ]);
 $stats = $rets->result->status;
 $retus = uzfox("getChatMember",[
-         "chat_id"=>"-1001473306009",
+         "chat_id"=>"-1001366321887",
          "user_id"=>$id,
          ]);
 $status = $retus->result->status;
